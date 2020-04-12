@@ -15,3 +15,14 @@ C:\MyGit\TestCoreFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFra
 C:\MyGit\TestCoreFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.AssemblyInfo.cs
 C:\MyGit\TestCoreFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.dll
 C:\MyGit\TestCoreFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.pdb
+C:\Users\a0733284\Documents\GitHub\TestFramework\TestCoreFramework\bin\Debug\netcoreapp3.1\WebDrivers\chromedriver.exe
+C:\Users\a0733284\Documents\GitHub\TestFramework\TestCoreFramework\bin\Debug\netcoreapp3.1\WebDrivers\geckodriver.exe
+C:\Users\a0733284\Documents\GitHub\TestFramework\TestCoreFramework\bin\Debug\netcoreapp3.1\WebDrivers\IEDriverServer.exe
+C:\Users\a0733284\Documents\GitHub\TestFramework\TestCoreFramework\bin\Debug\netcoreapp3.1\TestCoreFramework.deps.json
+C:\Users\a0733284\Documents\GitHub\TestFramework\TestCoreFramework\bin\Debug\netcoreapp3.1\TestCoreFramework.dll
+C:\Users\a0733284\Documents\GitHub\TestFramework\TestCoreFramework\bin\Debug\netcoreapp3.1\TestCoreFramework.pdb
+C:\Users\a0733284\Documents\GitHub\TestFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.csproj.CoreCompileInputs.cache
+C:\Users\a0733284\Documents\GitHub\TestFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.AssemblyInfoInputs.cache
+C:\Users\a0733284\Documents\GitHub\TestFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.AssemblyInfo.cs
+C:\Users\a0733284\Documents\GitHub\TestFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.dll
+C:\Users\a0733284\Documents\GitHub\TestFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.pdb
