@@ -1,0 +1,16 @@
+C:\Users\a0733284\Downloads\EADotNetCoreProject\EADotNetCoreProject\EADotNetCoreProject\bin\Debug\netcoreapp3.1\EAAutoFramework.deps.json
+C:\Users\a0733284\Downloads\EADotNetCoreProject\EADotNetCoreProject\EADotNetCoreProject\bin\Debug\netcoreapp3.1\EAAutoFramework.dll
+C:\Users\a0733284\Downloads\EADotNetCoreProject\EADotNetCoreProject\EADotNetCoreProject\bin\Debug\netcoreapp3.1\EAAutoFramework.pdb
+C:\Users\a0733284\Downloads\EADotNetCoreProject\EADotNetCoreProject\EADotNetCoreProject\obj\Debug\netcoreapp3.1\EAAutoFramework.csprojAssemblyReference.cache
+C:\Users\a0733284\Downloads\EADotNetCoreProject\EADotNetCoreProject\EADotNetCoreProject\obj\Debug\netcoreapp3.1\EAAutoFramework.AssemblyInfoInputs.cache
+C:\Users\a0733284\Downloads\EADotNetCoreProject\EADotNetCoreProject\EADotNetCoreProject\obj\Debug\netcoreapp3.1\EAAutoFramework.AssemblyInfo.cs
+C:\Users\a0733284\Downloads\EADotNetCoreProject\EADotNetCoreProject\EADotNetCoreProject\obj\Debug\netcoreapp3.1\EAAutoFramework.dll
+C:\Users\a0733284\Downloads\EADotNetCoreProject\EADotNetCoreProject\EADotNetCoreProject\obj\Debug\netcoreapp3.1\EAAutoFramework.pdb
+C:\Users\a0733284\Downloads\AonTestCoreFramework\EADotNetCoreProject\obj\Debug\netcoreapp3.1\EAAutoFramework.csprojAssemblyReference.cache
+C:\Users\a0733284\Downloads\AonTestCoreFramework\EADotNetCoreProject\obj\Debug\netcoreapp3.1\EAAutoFramework.AssemblyInfoInputs.cache
+C:\Users\a0733284\Downloads\AonTestCoreFramework\EADotNetCoreProject\obj\Debug\netcoreapp3.1\EAAutoFramework.AssemblyInfo.cs
+C:\Users\a0733284\Downloads\AonTestCoreFramework\EADotNetCoreProject\bin\Debug\netcoreapp3.1\AonTestCoreFramework.deps.json
+C:\Users\a0733284\Downloads\AonTestCoreFramework\EADotNetCoreProject\bin\Debug\netcoreapp3.1\AonTestCoreFramework.dll
+C:\Users\a0733284\Downloads\AonTestCoreFramework\EADotNetCoreProject\bin\Debug\netcoreapp3.1\AonTestCoreFramework.pdb
+C:\Users\a0733284\Downloads\AonTestCoreFramework\EADotNetCoreProject\obj\Debug\netcoreapp3.1\AonTestCoreFramework.dll
+C:\Users\a0733284\Downloads\AonTestCoreFramework\EADotNetCoreProject\obj\Debug\netcoreapp3.1\AonTestCoreFramework.pdb

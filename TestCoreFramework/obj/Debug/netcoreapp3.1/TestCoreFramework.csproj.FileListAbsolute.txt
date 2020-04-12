@@ -1,0 +1,17 @@
+C:\MyGit\TestCoreFramework\AonTestFramework\bin\Debug\netcoreapp3.1\TestCoreFramework.deps.json
+C:\MyGit\TestCoreFramework\AonTestFramework\bin\Debug\netcoreapp3.1\TestCoreFramework.dll
+C:\MyGit\TestCoreFramework\AonTestFramework\bin\Debug\netcoreapp3.1\TestCoreFramework.pdb
+C:\MyGit\TestCoreFramework\AonTestFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.csprojAssemblyReference.cache
+C:\MyGit\TestCoreFramework\AonTestFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.csproj.CoreCompileInputs.cache
+C:\MyGit\TestCoreFramework\AonTestFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.AssemblyInfoInputs.cache
+C:\MyGit\TestCoreFramework\AonTestFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.AssemblyInfo.cs
+C:\MyGit\TestCoreFramework\AonTestFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.dll
+C:\MyGit\TestCoreFramework\AonTestFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.pdb
+C:\MyGit\TestCoreFramework\TestCoreFramework\bin\Debug\netcoreapp3.1\TestCoreFramework.deps.json
+C:\MyGit\TestCoreFramework\TestCoreFramework\bin\Debug\netcoreapp3.1\TestCoreFramework.dll
+C:\MyGit\TestCoreFramework\TestCoreFramework\bin\Debug\netcoreapp3.1\TestCoreFramework.pdb
+C:\MyGit\TestCoreFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.csproj.CoreCompileInputs.cache
+C:\MyGit\TestCoreFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.AssemblyInfoInputs.cache
+C:\MyGit\TestCoreFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.AssemblyInfo.cs
+C:\MyGit\TestCoreFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.dll
+C:\MyGit\TestCoreFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.pdb

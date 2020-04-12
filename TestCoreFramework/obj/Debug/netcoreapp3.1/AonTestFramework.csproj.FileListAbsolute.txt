@@ -1,0 +1,17 @@
+C:\Users\a0733284\Documents\AON\TemplateFramework\TestProject\AonTestCoreFramework\bin\Debug\netcoreapp3.1\AonTestFramework.deps.json
+C:\Users\a0733284\Documents\AON\TemplateFramework\TestProject\AonTestCoreFramework\bin\Debug\netcoreapp3.1\AonTestFramework.dll
+C:\Users\a0733284\Documents\AON\TemplateFramework\TestProject\AonTestCoreFramework\bin\Debug\netcoreapp3.1\AonTestFramework.pdb
+C:\Users\a0733284\Documents\AON\TemplateFramework\TestProject\AonTestCoreFramework\obj\Debug\netcoreapp3.1\AonTestFramework.csproj.CoreCompileInputs.cache
+C:\Users\a0733284\Documents\AON\TemplateFramework\TestProject\AonTestCoreFramework\obj\Debug\netcoreapp3.1\AonTestFramework.AssemblyInfoInputs.cache
+C:\Users\a0733284\Documents\AON\TemplateFramework\TestProject\AonTestCoreFramework\obj\Debug\netcoreapp3.1\AonTestFramework.AssemblyInfo.cs
+C:\Users\a0733284\Documents\AON\TemplateFramework\TestProject\AonTestCoreFramework\obj\Debug\netcoreapp3.1\AonTestFramework.dll
+C:\Users\a0733284\Documents\AON\TemplateFramework\TestProject\AonTestCoreFramework\obj\Debug\netcoreapp3.1\AonTestFramework.pdb
+C:\Users\a0733284\Documents\AON\TemplateFramework\TestProject\AonTestFramework\bin\Debug\netcoreapp3.1\AonTestFramework.deps.json
+C:\Users\a0733284\Documents\AON\TemplateFramework\TestProject\AonTestFramework\bin\Debug\netcoreapp3.1\AonTestFramework.dll
+C:\Users\a0733284\Documents\AON\TemplateFramework\TestProject\AonTestFramework\bin\Debug\netcoreapp3.1\AonTestFramework.pdb
+C:\Users\a0733284\Documents\AON\TemplateFramework\TestProject\AonTestFramework\obj\Debug\netcoreapp3.1\AonTestFramework.csprojAssemblyReference.cache
+C:\Users\a0733284\Documents\AON\TemplateFramework\TestProject\AonTestFramework\obj\Debug\netcoreapp3.1\AonTestFramework.csproj.CoreCompileInputs.cache
+C:\Users\a0733284\Documents\AON\TemplateFramework\TestProject\AonTestFramework\obj\Debug\netcoreapp3.1\AonTestFramework.AssemblyInfoInputs.cache
+C:\Users\a0733284\Documents\AON\TemplateFramework\TestProject\AonTestFramework\obj\Debug\netcoreapp3.1\AonTestFramework.AssemblyInfo.cs
+C:\Users\a0733284\Documents\AON\TemplateFramework\TestProject\AonTestFramework\obj\Debug\netcoreapp3.1\AonTestFramework.dll
+C:\Users\a0733284\Documents\AON\TemplateFramework\TestProject\AonTestFramework\obj\Debug\netcoreapp3.1\AonTestFramework.pdb
