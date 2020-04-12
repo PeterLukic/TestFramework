@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pI9H8FI24auSR7X14HSdjfu/PkxMekiKfuxkySXocchc4CQ4I4H5nIS3iSbDQ3Yp9TPJR7qI5g+wxTCPsb3PMA==",
+  "dgSpecHash": "Vi2ab3mIn9CqCxpGRXvpGu0o5FFFVj6ZxYDXzzkHMkSYMdU4eX3t9OAjFbKUiXZ6sNSz9dgwJQvIl+9QNHWvwA==",
   "success": true,
-  "projectFilePath": "C:\\MyGit\\TestCoreFramework\\TestCoreFramework\\TestCoreFramework.csproj",
+  "projectFilePath": "C:\\Users\\a0733284\\Documents\\GitHub\\TestFramework\\TestCoreFramework\\TestCoreFramework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a0733284\\.nuget\\packages\\bodi\\1.4.1\\bodi.1.4.1.nupkg.sha512",
     "C:\\Users\\a0733284\\.nuget\\packages\\cucumber.messages\\6.0.1\\cucumber.messages.6.0.1.nupkg.sha512",

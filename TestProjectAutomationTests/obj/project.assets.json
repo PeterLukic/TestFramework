@@ -10412,11 +10412,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MyGit\\TestCoreFramework\\TestProjectAutomationTests\\TestProjectAutomationTests.csproj",
+      "projectUniqueName": "C:\\Users\\a0733284\\Documents\\GitHub\\TestFramework\\TestProjectAutomationTests\\TestProjectAutomationTests.csproj",
       "projectName": "TestProjectAutomationTests",
-      "projectPath": "C:\\MyGit\\TestCoreFramework\\TestProjectAutomationTests\\TestProjectAutomationTests.csproj",
+      "projectPath": "C:\\Users\\a0733284\\Documents\\GitHub\\TestFramework\\TestProjectAutomationTests\\TestProjectAutomationTests.csproj",
       "packagesPath": "C:\\Users\\a0733284\\.nuget\\packages\\",
-      "outputPath": "C:\\MyGit\\TestCoreFramework\\TestProjectAutomationTests\\obj\\",
+      "outputPath": "C:\\Users\\a0733284\\Documents\\GitHub\\TestFramework\\TestProjectAutomationTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -10437,8 +10437,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\MyGit\\TestCoreFramework\\TestCoreFramework\\TestCoreFramework.csproj": {
-              "projectPath": "C:\\MyGit\\TestCoreFramework\\TestCoreFramework\\TestCoreFramework.csproj"
+            "C:\\Users\\a0733284\\Documents\\GitHub\\TestFramework\\TestCoreFramework\\TestCoreFramework.csproj": {
+              "projectPath": "C:\\Users\\a0733284\\Documents\\GitHub\\TestFramework\\TestCoreFramework\\TestCoreFramework.csproj"
             }
           }
         }
