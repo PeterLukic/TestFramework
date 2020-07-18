@@ -71,7 +71,7 @@ namespace TestProjectAutomationTests.Hooks
         }
 
         [BeforeTestRun]
-        public static void TestInitalize()
+        public static void TestInitialize()
         {
             //Initialize Extent report before test starts
             var htmlReporter = new ExtentHtmlReporter(@"C:\Temp\");
