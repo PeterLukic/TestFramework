@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fa3188ac-4b67-4a21-8d5f-e9c41a88cb52": {
+      "ProjectGuid": "fa3188ac-4b67-4a21-8d5f-e9c41a88cb52",
+      "DisplayName": "TestCoreFramework",
+      "ColorIndex": 0
+    },
+    "6124621e-9445-4ecc-b83a-b85ae07c99df": {
+      "ProjectGuid": "6124621e-9445-4ecc-b83a-b85ae07c99df",
+      "DisplayName": "TestProjectAutomationTests",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
