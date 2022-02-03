@@ -8,10 +8,11 @@ using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Chrome;
 using TechTalk.SpecFlow;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Edge;
+using Microsoft.Edge.SeleniumTools;
 
 namespace TestCoreFramework.Base
-{ public class TestInitializeHook : Steps
+{ 
+    public class TestInitializeHook : Steps
     {
         private readonly ParallelConfig _parallelConfig;
         public TestInitializeHook(ParallelConfig parallelConfig)
@@ -23,16 +24,19 @@ namespace TestCoreFramework.Base
             //Set all the settings for framework
             ConfigReader.SetFrameworkSettings();
             //Set Log
-            LogHelpers.CreateLogFile();
+            //LogHelpers.CreateLogFile();
             //Open Browser
             OpenBrowser(GetBrowserOption(Settings.BrowserType));
             //LogHelpers.Write("Initialized framework");
         }
 
         private static string GetDriversDirectoryPath()
-        {
-            var assemblyUri = new Uri(Assembly.GetExecutingAssembly().CodeBase).AbsolutePath;
+        { 
+            //var assemblyUri = new Uri(Assembly.GetExecutingAssembly().CodeBase).AbsolutePath;
+
+            var assemblyUri = new Uri(Assembly.GetExecutingAssembly().EscapedCodeBase).LocalPath;
             return Path.Combine(Path.GetDirectoryName(assemblyUri), "WebDrivers");
+
         }
         private void OpenBrowser(DriverOptions driverOptions)
         {
@@ -58,9 +62,13 @@ namespace TestCoreFramework.Base
                     _parallelConfig.Driver = new ChromeDriver(GetDriversDirectoryPath(), chromeOptions, TimeSpan.FromMinutes(3));
                     break;
                 case EdgeOptions edgeOptions:
-                    edgeOptions.AddExtensionPath(GetDriversDirectoryPath());
-                    _parallelConfig.Driver = new EdgeDriver(GetDriversDirectoryPath());
+                    edgeOptions.AddArgument("start-maximized");
+                    edgeOptions.AddArgument("--no-sandbox");
+                    edgeOptions.AddArgument("--disable-notifications");
+                    edgeOptions.UseChromium = true;
+                    _parallelConfig.Driver = new EdgeDriver(GetDriversDirectoryPath(), edgeOptions, TimeSpan.FromMinutes(3));
                     _parallelConfig.Driver.Manage().Window.Maximize();
+
                     break;
             }
         }
@@ -74,6 +82,8 @@ namespace TestCoreFramework.Base
                     return new FirefoxOptions();
                 case BrowserType.Chrome:
                     return new ChromeOptions();
+                case BrowserType.Edge:
+                    return new EdgeOptions();
                 default:
                     return new ChromeOptions();
             }

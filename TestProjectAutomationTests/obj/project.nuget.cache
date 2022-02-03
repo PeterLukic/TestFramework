@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IcZptpRTbLV8KBIOOqcJxl4P5N1emWmDRIQoNFxzs/5d8EwlmT/2JSFmp0j3/Tui0o/lfocgFeQNZqSmMPoz1A==",
+  "dgSpecHash": "kMJkL9F7cIe9zg55BacdkI6+c5HuHFC42hBcYn/WbvMlPJMQCe/lRjClWMhCiixTqI71dgH3gZlCMZRGykK9OA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Peter Lukic\\source\\repos\\TestCoreFramework\\TestProjectAutomationTests\\TestProjectAutomationTests.csproj",
   "expectedPackageFiles": [
@@ -46,6 +46,7 @@
     "C:\\Users\\Peter Lukic\\.nuget\\packages\\microsoft.codecoverage\\17.0.0\\microsoft.codecoverage.17.0.0.nupkg.sha512",
     "C:\\Users\\Peter Lukic\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Peter Lukic\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\1.0.3\\microsoft.dotnet.platformabstractions.1.0.3.nupkg.sha512",
+    "C:\\Users\\Peter Lukic\\.nuget\\packages\\microsoft.edge.seleniumtools\\3.141.3\\microsoft.edge.seleniumtools.3.141.3.nupkg.sha512",
     "C:\\Users\\Peter Lukic\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\Peter Lukic\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Peter Lukic\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
@@ -87,7 +88,7 @@
     "C:\\Users\\Peter Lukic\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Peter Lukic\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
     "C:\\Users\\Peter Lukic\\.nuget\\packages\\nunit\\3.13.1\\nunit.3.13.1.nupkg.sha512",
-    "C:\\Users\\Peter Lukic\\.nuget\\packages\\nunit3testadapter\\4.1.0\\nunit3testadapter.4.1.0.nupkg.sha512",
+    "C:\\Users\\Peter Lukic\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512",
     "C:\\Users\\Peter Lukic\\.nuget\\packages\\razorengine.netcore\\2.2.6\\razorengine.netcore.2.2.6.nupkg.sha512",
     "C:\\Users\\Peter Lukic\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\Peter Lukic\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",

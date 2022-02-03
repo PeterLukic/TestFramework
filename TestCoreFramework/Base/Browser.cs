@@ -17,6 +17,7 @@
     {
         InternetExplorer,
         FireFox,
-        Chrome
+        Chrome,
+        Edge
     }
 }

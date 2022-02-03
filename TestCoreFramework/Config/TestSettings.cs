@@ -26,5 +26,11 @@ namespace TestCoreFramework.Config
 
         [JsonProperty("autConnectionString")]
         public string AUTConnectionString { get; set; }
+
+        [JsonProperty("username")]
+        public string UserName { get; set; }
+
+        [JsonProperty("password")]
+        public string Password { get; set; }
     }
 }

@@ -19,6 +19,7 @@ namespace TestCoreFramework.Helpers
             }
             catch (Exception e)
             {
+                Console.WriteLine(e.ToString());
                 //LogHelpers.Write("ERROR :: " + e.Message);
             }
 
@@ -34,6 +35,7 @@ namespace TestCoreFramework.Helpers
             }
             catch (Exception e)
             {
+                Console.WriteLine(e.ToString());
                 //LogHelpers.Write("ERROR :: " + e.Message);
             }
         }
@@ -61,6 +63,7 @@ namespace TestCoreFramework.Helpers
             }
             catch (Exception e)
             {
+                Console.WriteLine(e.ToString());
                 dataset = null;
                 sqlConnection.Close();
                 //LogHelpers.Write("ERROR :: " + e.Message);

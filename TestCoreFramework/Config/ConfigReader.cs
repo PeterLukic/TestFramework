@@ -19,6 +19,8 @@ namespace TestCoreFramework.Config
             Settings.LogPath = configurationRoot.GetSection("testSettings").Get<TestSettings>().LogPath;
             Settings.AppConnectionString = configurationRoot.GetSection("testSettings").Get<TestSettings>().AUTConnectionString;
             Settings.BrowserType = configurationRoot.GetSection("testSettings").Get<TestSettings>().Browser;
+            Settings.UserName = configurationRoot.GetSection("testSettings").Get<TestSettings>().UserName;
+            Settings.Password = configurationRoot.GetSection("testSettings").Get<TestSettings>().Password;
         }
     }
 }

@@ -5,7 +5,7 @@ using AventStack.ExtentReports.Gherkin.Model;
 using TestCoreFramework.Base;
 using NUnit.Framework;
 
-[assembly: Parallelizable(ParallelScope.Fixtures)]
+//[assembly: Parallelizable(ParallelScope.Fixtures)]
 
 namespace TestProjectAutomationTests.Hooks
 {
@@ -98,7 +98,7 @@ namespace TestProjectAutomationTests.Hooks
         {
             //Flush report once test completes
             _parallelConfig.Driver.Quit();
-            _parallelConfig.Driver.Close();
+            //_parallelConfig.Driver.Close();
         }
 
         [AfterTestRun]

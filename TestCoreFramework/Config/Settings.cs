@@ -10,5 +10,7 @@ namespace TestCoreFramework.Config
         public static string AppConnectionString { get; set; }
         public static string IsLog { get; set; }
         public static string LogPath { get; set; }
+        public static string UserName { get; set; }
+        public static string Password { get; set; }
     }
 }

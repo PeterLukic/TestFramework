@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tkIVJOfgk/BF6gQ95qX9LofLfLucz+vpZmk1+tO9DJkqcm1iTXKtPVgbpVGLW699AS9iVs0j+ind+NoLtPpnXg==",
+  "dgSpecHash": "7ACHU1E92VP+RkyRhUONpXh097TgsSQjN8S+1kOBkqHH/+cmzSE57y9eGZ+ZmahVVqgfCxEPJr3/7zWDy1SOHA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Peter Lukic\\source\\repos\\TestCoreFramework\\TestCoreFramework\\TestCoreFramework.csproj",
   "expectedPackageFiles": [
@@ -44,6 +44,7 @@
     "C:\\Users\\Peter Lukic\\.nuget\\packages\\microsoft.codeanalysis.csharp\\2.8.0\\microsoft.codeanalysis.csharp.2.8.0.nupkg.sha512",
     "C:\\Users\\Peter Lukic\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Peter Lukic\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\1.0.3\\microsoft.dotnet.platformabstractions.1.0.3.nupkg.sha512",
+    "C:\\Users\\Peter Lukic\\.nuget\\packages\\microsoft.edge.seleniumtools\\3.141.3\\microsoft.edge.seleniumtools.3.141.3.nupkg.sha512",
     "C:\\Users\\Peter Lukic\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\Peter Lukic\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Peter Lukic\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
