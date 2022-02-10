@@ -6,8 +6,9 @@ using TechTalk.SpecFlow;
 using TestCoreFramework.Base;
 using TestCoreFramework.Config;
 using TestProjectAutomationTests.Pages;
+using TestProjectAutomationTests.Shireburn;
 
-namespace TestProjectAutomationTests.Steps
+namespace TestProjectAutomationTests.Steps.Shireburn
 {
     [Binding]
     internal class Main : BaseStep

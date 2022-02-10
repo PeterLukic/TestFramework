@@ -1,13 +1,11 @@
 ﻿using OpenQA.Selenium;
-using OpenQA.Selenium.Interactions;
 using System;
-using System.Collections.Generic;
 using System.Threading;
 using TestCoreFramework.Base;
 using TestCoreFramework.Extensions;
 
 
-namespace TestProjectAutomationTests.Pages
+namespace TestProjectAutomationTests.Pages.Shireburn
 {
     class PageTaxProfiles : BasePage
     {
@@ -22,26 +20,37 @@ namespace TestProjectAutomationTests.Pages
         private IWebElement textBoxTaxProfile => _parallelConfig.Driver.FindByXpath(" //div[@role='gridcell']//input[@data-uid='TaxProfile-Code']");
 
         private IWebElement textBoxTaxProfileDescription => _parallelConfig.Driver.FindByXpath("//div[@role='gridcell']//input[@data-uid='TaxProfile-Description']");
-        
+
+        private IWebElement textBoxSearchTaxProfile => _parallelConfig.Driver.FindByXpath("//body/div[1]/section[1]/div/section[@class='ListWrapper fxDisplay fxStretch']//section[@class='gridWrapper']//div[@role='grid']/div/div/div[4]/div[1]/div[2]/div/div[2]/input[@type='textarea']");
+
         private IWebElement listBoxFssStatus => _parallelConfig.Driver.FindByXpath("/html[1]/body[1]/div[1]/section[1]/div[1]/section[1]/div[1]/div[1]/section[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]");
 
         private IWebElement checkBoxTaxOnAnnualProjGross => _parallelConfig.Driver.FindByXpath("//div[@role='gridcell']//div[@data-uid='TaxProfile-undefined']");
 
         private IWebElement tabButtonRates => _parallelConfig.Driver.FindById("taxratebutton");
-        
+
+        private IWebElement alertWindow => _parallelConfig.Driver.FindByXpath("//body[@class='Layout isDesktop']");
+
+
         #endregion
 
         #region Clicks
 
         public void ClickButtonInsert()
         {
+            _parallelConfig.Driver.WaitForPageLoadedJavaScript();
+            _parallelConfig.Driver.WaitForPageLoaded(TimeSpan.FromSeconds(60));
+            Thread.Sleep(2000);
             _parallelConfig.Driver.WaitElementToBeEnabled(TimeSpan.FromSeconds(60), buttonInsert);
             buttonInsert.Click();
+
         }
 
         public void ClickButtonSave()
         {
             buttonSave.Click();
+            Thread.Sleep(2000);
+            Console.WriteLine(alertWindow.Text);
         }
 
         public void ClickCheckBoxTaxOnAnnualProjGross()
@@ -80,6 +89,16 @@ namespace TestProjectAutomationTests.Pages
             textBoxTaxProfileDescription.SendKeys(Keys.Tab);
 
         }
+
+        public void InsertTextBoxSearchTaxProfile(string textValue)
+        {
+            Thread.Sleep(1000);
+            textBoxSearchTaxProfile.Click();
+            textBoxSearchTaxProfile.SendKeys(textValue);
+        }
+
+
+
 
         #endregion
 

@@ -4,8 +4,9 @@ using System;
 using System.Threading;
 using TestCoreFramework.Base;
 using TestCoreFramework.Extensions;
+using TestProjectAutomationTests.Pages.Shireburn;
 
-namespace TestProjectAutomationTests.Pages
+namespace TestProjectAutomationTests.Shireburn
 {
     class PageMain : BasePage
     {
@@ -28,6 +29,7 @@ namespace TestProjectAutomationTests.Pages
         public PageTaxProfiles ClickModuleTaxProfiles()
         {
             _parallelConfig.Driver.WaitElementToBeEnabled(TimeSpan.FromSeconds(60), moduleTaxProfiles);
+            Thread.Sleep(2000);
             moduleTaxProfiles.Click();
             _parallelConfig.Driver.WaitElement(By.XPath("/html//div[@id='taxprofilebutton']"), 60);
             return new PageTaxProfiles(_parallelConfig);

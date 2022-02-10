@@ -1,8 +1,8 @@
 ﻿using TechTalk.SpecFlow;
 using TestCoreFramework.Base;
-using TestProjectAutomationTests.Pages;
+using TestProjectAutomationTests.Pages.Shireburn;
 
-namespace TestProjectAutomationTests.Steps
+namespace TestProjectAutomationTests.Steps.Shireburn
 {
     [Binding]
     internal class TaxProfiles : BaseStep
@@ -34,6 +34,12 @@ namespace TestProjectAutomationTests.Steps
             _parallelConfig.CurrentPage.As<PageTaxProfiles>().InsertTextBoxTaxProfileDescription(value);
         }
 
+        [Then(@"I insert on search Tax profile value ""([^""]*)""")]
+        public void ThenInsertOnSearchTaxProfileValue(string value)
+        {
+            _parallelConfig.CurrentPage.As<PageTaxProfiles>().InsertTextBoxSearchTaxProfile(value);
+        }
+
         [Then(@"I select FSS Status with value ""([^""]*)""")]
         public void ThenISelectFSSStatusWithValue(string value)
         {
@@ -58,7 +64,7 @@ namespace TestProjectAutomationTests.Steps
             _parallelConfig.CurrentPage = _parallelConfig.CurrentPage.As<PageTaxProfiles>().ClickTabButtonRates();
         }
 
-
+   
         #endregion
     }
 }

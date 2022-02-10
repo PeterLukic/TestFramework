@@ -1,8 +1,8 @@
 ﻿using TechTalk.SpecFlow;
 using TestCoreFramework.Base;
-using TestProjectAutomationTests.Pages;
+using TestProjectAutomationTests.Pages.Shireburn;
 
-namespace TestProjectAutomationTests.Steps
+namespace TestProjectAutomationTests.Steps.Shireburn
 {
     [Binding]
     internal class TaxRates : BaseStep
@@ -106,18 +106,19 @@ namespace TestProjectAutomationTests.Steps
             _parallelConfig.CurrentPage.As<PageTaxRates>().ClickDialogbuttonDelete();
         }
 
+        [Then(@"I insert on search Tax rate value ""([^""]*)""")]
+        public void ThenIInsertOnSearchTaxRateValue(string value)
+        {
+            _parallelConfig.CurrentPage.As<PageTaxRates>().InsertTextBoxSearchCode(value);
+        }
 
-        //[Then(@"I edit Date from with value ""([^""]*)""")]
-        //public void ThenIEditDateFromWithValue(string value)
-        //{
-        //    _parallelConfig.CurrentPage.As<PageTaxRates>().EditDateTimeDateFrom(value);
-        //}
 
-        //[Then(@"I edit Date to with value ""([^""]*)""")]
-        //public void ThenIEditDateToWithValue(string value)
-        //{
-        //    _parallelConfig.CurrentPage.As<PageTaxRates>().EditDateTimeDateTo(value);
-        //}
+        [Then(@"I insert ""([^""]*)"" with values ""([^""]*)""")]
+        [Then(@"I edit ""([^""]*)"" with values ""([^""]*)""")]
+        public void ThenIInsertWithValues(string name, string value)
+        {
+            _parallelConfig.CurrentPage.As<PageTaxRates>().InsertTextBoxTaxRates(name, value);
+        }
 
 
         #endregion

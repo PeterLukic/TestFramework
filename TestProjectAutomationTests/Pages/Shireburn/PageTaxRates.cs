@@ -5,7 +5,7 @@ using System.Threading;
 using TestCoreFramework.Base;
 using TestCoreFramework.Extensions;
 
-namespace TestProjectAutomationTests.Pages
+namespace TestProjectAutomationTests.Pages.Shireburn
 {
     class PageTaxRates : BasePage
     {
@@ -95,6 +95,8 @@ namespace TestProjectAutomationTests.Pages
 
         public void InsertTextBoxSearchCode(string textValue)
         {
+            Thread.Sleep(1000);
+            textBoxSearchCode.Click();
             textBoxSearchCode.SendKeys(textValue);
         }
 
@@ -122,23 +124,6 @@ namespace TestProjectAutomationTests.Pages
             dateTimeDateTo.SendKeys(textValue);
             dateTimeDateTo.SendKeys(Keys.Tab);
         }
-
-        //public void EditDateTimeDateFrom(string textValue)
-        //{
-        //    textValue = textValue.Replace("/", string.Empty);
-        //    Thread.Sleep(1000);
-        //    dateTimeDateFrom.SendKeys(textValue);
-        //    dateTimeDateFrom.SendKeys(Keys.Tab);
-        //}
-
-        //public void EditDateTimeDateTo(string textValue)
-        //{
-        //    textValue = textValue.Replace("/", string.Empty);
-        //    Thread.Sleep(1000);
-        //    dateTimeDateTo.SendKeys(textValue);
-        //    dateTimeDateTo.SendKeys(Keys.Tab);
-        //}
-
 
         public void InsertNumberEditorRangeFrom(string textValue)
         {
@@ -170,6 +155,37 @@ namespace TestProjectAutomationTests.Pages
             //numberEditorSubtract.SendKeys(Keys.Tab);
         }
 
+        public void InsertTextBoxTaxRates(string nameValue, string textValue)
+        {
+            switch (nameValue)
+            {
+                case "Code":
+                    InsertTextBoxCode(textValue);
+                    break;
+                case "Date from":
+                    InsertDateTimeDateFrom(textValue);
+                    break;
+                case "Date to":
+                    InsertDateTimeDateTo(textValue);
+                    break;
+                case "Range from":
+                    InsertNumberEditorRangeFrom(textValue);
+                    break;
+                case "Range to":
+                    InsertNumberEditorRangeTo(textValue);
+                    break;
+                case "Tax rate":
+                    InsertNumberEditorTaxRate(textValue);
+                    break;
+                case "Substract":
+                    InsertNumberEditorSubtract(textValue);
+                    break;
+                default:
+                    throw new NotImplementedException
+                        ("Unrecognized value !!!");
+            }
+
+        }
         #endregion
 
         #region Asserts

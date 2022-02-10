@@ -1,8 +1,9 @@
 ﻿using OpenQA.Selenium;
 using TestCoreFramework.Base;
 using TestCoreFramework.Extensions;
+using TestProjectAutomationTests.Shireburn;
 
-namespace TestProjectAutomationTests.Pages
+namespace TestProjectAutomationTests.Pages.Shireburn
 {
     class PageLogin : BasePage       
     {
