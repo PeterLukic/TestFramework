@@ -1,4 +1,5 @@
-﻿using OpenQA.Selenium;
+﻿using NUnit.Framework;
+using OpenQA.Selenium;
 using System;
 using System.Threading;
 using TestCoreFramework.Base;
@@ -30,6 +31,8 @@ namespace TestProjectAutomationTests.Pages.Shireburn
         private IWebElement tabButtonRates => _parallelConfig.Driver.FindById("taxratebutton");
 
         private IWebElement alertWindow => _parallelConfig.Driver.FindByXpath("//body[@class='Layout isDesktop']");
+
+        private IWebElement tableTaxProfileRow1 => _parallelConfig.Driver.FindByXpath("//body/div[1]/section[1]//section[@class='ListWrapper fxDisplay fxStretch']//section[@class='gridWrapper']//div[@role='grid']/div/div/div[4]/div[@class='jqx-grid-content jqx-grid-content-metro jqx-widget-content jqx-widget-content-metro']/div/div[1]/div[2]/div[@class='jqx-grid-cell-left-align']");
 
 
         #endregion
@@ -95,10 +98,8 @@ namespace TestProjectAutomationTests.Pages.Shireburn
             Thread.Sleep(1000);
             textBoxSearchTaxProfile.Click();
             textBoxSearchTaxProfile.SendKeys(textValue);
+            Thread.Sleep(1000);
         }
-
-
-
 
         #endregion
 
@@ -112,6 +113,15 @@ namespace TestProjectAutomationTests.Pages.Shireburn
             var listBoxFssStatusValues = listBoxFssStatus.FindElement(By.XPath("//div[@role='listbox']//span[contains(text(),'" + listBoxValue + "')]"));
             Thread.Sleep(1000);
             listBoxFssStatusValues.Click();            
+        }
+
+        #endregion
+
+        #region Asserts
+
+        public void AssertTableTaxProfileRow1(string tableValue)
+        {
+            Assert.AreEqual(tableValue, tableTaxProfileRow1.Text);
         }
 
         #endregion

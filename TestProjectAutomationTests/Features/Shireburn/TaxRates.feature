@@ -8,6 +8,7 @@ Scenario: _01 Create New Tax Rate
 	And I check If website is open
 	Then I click on module button Tax Profiles
 	Then I insert on search Tax profile value "EA Test"
+	And I check If Tax profile "EA Test" exist in table
 	Then I click on tab buton Rates
 	Then I click on button Insert on page Tax Rates
 	Then I insert "Code" with values "EA 1991"
@@ -26,6 +27,7 @@ Scenario: _02 Edit Tax Rate
 	And I check If website is open
 	Then I click on module button Tax Profiles
 	Then I insert on search Tax profile value "EA Test"
+	And I check If Tax profile "EA Test" exist in table
 	Then I click on tab buton Rates
 	Then I insert on search Tax rate value "EA 1991"
 	Then I click on button Edit on page Tax Rates
@@ -44,6 +46,7 @@ Scenario: _03 Delete Tax Rate
 	And I check If website is open
 	Then I click on module button Tax Profiles
 	Then I insert on search Tax profile value "EA Test"
+	And I check If Tax profile "EA Test" exist in table
 	Then I click on tab buton Rates
 	Then I insert on search Tax rate value "EA 1991"
 	Then I select Tax Rate from Grid with index "1"
