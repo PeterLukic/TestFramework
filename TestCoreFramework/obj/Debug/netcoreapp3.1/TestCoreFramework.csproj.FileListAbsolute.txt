@@ -11,3 +11,4 @@ C:\Users\Peter Lukic\source\repos\TestCoreFramework\TestCoreFramework\obj\Debug\
 C:\Users\Peter Lukic\source\repos\TestCoreFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.dll
 C:\Users\Peter Lukic\source\repos\TestCoreFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.pdb
 C:\Users\Peter Lukic\source\repos\TestCoreFramework\TestCoreFramework\bin\Debug\netcoreapp3.1\WebDrivers\msedgedriver.exe
+C:\Users\Peter Lukic\source\repos\TestCoreFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.csproj.AssemblyReference.cache

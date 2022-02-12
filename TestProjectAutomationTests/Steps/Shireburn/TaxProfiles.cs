@@ -64,11 +64,18 @@ namespace TestProjectAutomationTests.Steps.Shireburn
             _parallelConfig.CurrentPage = _parallelConfig.CurrentPage.As<PageTaxProfiles>().ClickTabButtonRates();
         }
 
+        [Then(@"I refesh page Tax Profiles")]
+        public void ThenIRefeshPageTaxProfiles()
+        {
+            _parallelConfig.CurrentPage.As<PageTaxProfiles>().RefreshPage();
+        }
+
+
         #endregion
 
         #region Asserts
 
-       [Then(@"I check If Tax profile ""([^""]*)"" exist in table")]
+        [Then(@"I check If Tax profile ""([^""]*)"" exist in table")]
         public void ThenICheckIfTaxProfileExistInTable(string value)
         {
             _parallelConfig.CurrentPage.As<PageTaxProfiles>().AssertTableTaxProfileRow1(value);

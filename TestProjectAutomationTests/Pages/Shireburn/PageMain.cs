@@ -42,7 +42,7 @@ namespace TestProjectAutomationTests.Shireburn
 
         public void AssertModuleMain()
         {
-            _parallelConfig.Driver.WaitElement(By.XPath("/html//input[@id='globalSearch']"), 60);
+            _parallelConfig.Driver.WaitElement(By.XPath("//div[@id='currentModule']//a[@href='#/List/00103/QA01/HR/Payroll/TaxProfiles']/span[@class='currentModuleSectionGroup-moduleText fxStretch']"), 120);
             Assert.AreEqual(true, moduleMain.Displayed);
         }
 

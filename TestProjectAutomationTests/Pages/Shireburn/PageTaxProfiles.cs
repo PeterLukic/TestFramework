@@ -52,8 +52,7 @@ namespace TestProjectAutomationTests.Pages.Shireburn
         public void ClickButtonSave()
         {
             buttonSave.Click();
-            Thread.Sleep(2000);
-            Console.WriteLine(alertWindow.Text);
+            Thread.Sleep(2000); 
         }
 
         public void ClickCheckBoxTaxOnAnnualProjGross()
@@ -95,6 +94,8 @@ namespace TestProjectAutomationTests.Pages.Shireburn
 
         public void InsertTextBoxSearchTaxProfile(string textValue)
         {
+
+            _parallelConfig.Driver.WaitElement(By.XPath("//body/div[1]/section[1]/div/section[@class='ListWrapper fxDisplay fxStretch']//section[@class='gridWrapper']//div[@role='grid']/div/div/div[4]/div[1]/div[2]/div/div[2]/input[@type='textarea']"), 120);
             Thread.Sleep(1000);
             textBoxSearchTaxProfile.Click();
             textBoxSearchTaxProfile.SendKeys(textValue);
@@ -113,6 +114,11 @@ namespace TestProjectAutomationTests.Pages.Shireburn
             var listBoxFssStatusValues = listBoxFssStatus.FindElement(By.XPath("//div[@role='listbox']//span[contains(text(),'" + listBoxValue + "')]"));
             Thread.Sleep(1000);
             listBoxFssStatusValues.Click();            
+        }
+
+        public void RefreshPageTaxProfiles()
+        {
+            RefreshPage();
         }
 
         #endregion
