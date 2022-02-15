@@ -280,22 +280,22 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Then("I click on button Edit on page Tax Rates", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 50
- testRunner.Then("I edit \"Date from\" with values \"01/01/2022\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("I edit \"Date from\" with values \"02/02/2022\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 51
- testRunner.Then("I edit \"Date to\" with values \"31/12/2022\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("I edit \"Date to\" with values \"02/11/2022\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 52
- testRunner.Then("I edit \"Range from\" with values \"5000\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("I edit \"Range from\" with values \"2000\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 53
- testRunner.Then("I edit \"Range to\" with values \"15000\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("I edit \"Range to\" with values \"10000\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 54
- testRunner.Then("I edit \"Tax rate\" with values \"15\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("I edit \"Tax rate\" with values \"12\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 55
- testRunner.Then("I edit \"Substract\" with values \"1200\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("I edit \"Substract\" with values \"900\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 56
  testRunner.Then("I click on checbox Show as PT", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");

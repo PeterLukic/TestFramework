@@ -47,12 +47,12 @@ Scenario: _03 Edit Tax Rate
 	Then I click on tab buton Rates
 	Then I insert on search Tax rate value "EA 1991"
 	Then I click on button Edit on page Tax Rates
-	Then I edit "Date from" with values "01/01/2022"
-	Then I edit "Date to" with values "31/12/2022"
-	Then I edit "Range from" with values "5000"
-	Then I edit "Range to" with values "15000"
-	Then I edit "Tax rate" with values "15"
-	Then I edit "Substract" with values "1200"
+	Then I edit "Date from" with values "02/02/2022"
+	Then I edit "Date to" with values "02/11/2022"
+	Then I edit "Range from" with values "2000"
+	Then I edit "Range to" with values "10000"
+	Then I edit "Tax rate" with values "12"
+	Then I edit "Substract" with values "900"
 	Then I click on checbox Show as PT
 	Then I click on button Save on page Tax Rate
 
