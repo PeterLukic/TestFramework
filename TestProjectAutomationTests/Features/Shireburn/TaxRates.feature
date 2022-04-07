@@ -2,6 +2,11 @@
 
 	Tax Rates Feature
 
+Scenario: _00 Test If Web Is Open
+	Given I open shireburn website
+	Then I login to website 
+	And I check If website is open
+
 Scenario: _01 Create New Tax Profiles
 	Given I open shireburn website
 	Then I login to website 

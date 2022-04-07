@@ -9,6 +9,9 @@ using OpenQA.Selenium.Chrome;
 using TechTalk.SpecFlow;
 using OpenQA.Selenium;
 using Microsoft.Edge.SeleniumTools;
+using WebDriverManager.DriverConfigs.Impl;
+using WebDriverManager.Helpers;
+using WebDriverManager;
 
 namespace TestCoreFramework.Base
 { 
@@ -46,29 +49,36 @@ namespace TestCoreFramework.Base
                     //ToDo: Set the Desired capabilities
                     var options = new InternetExplorerOptions();
                     options.IntroduceInstabilityByIgnoringProtectedModeSettings = true;
-                    _parallelConfig.Driver = new InternetExplorerDriver(GetDriversDirectoryPath(), options);
+                    new DriverManager().SetUpDriver(new InternetExplorerConfig(), VersionResolveStrategy.MatchingBrowser);
+                    //_parallelConfig.Driver = new InternetExplorerDriver(GetDriversDirectoryPath(), options);
+                    _parallelConfig.Driver = new InternetExplorerDriver(options);
                     _parallelConfig.Driver.Manage().Window.Maximize();
                     break;
                 case FirefoxOptions firefoxOptions:
                     var ffOptions = new FirefoxOptions();
                     ffOptions.AddArgument("--no-sandbox");
                     ffOptions.SetPreference("capability.policy.default.Window.frameElement.get", "allAccess");
-                    _parallelConfig.Driver = new FirefoxDriver(GetDriversDirectoryPath(), ffOptions, TimeSpan.FromMinutes(3));
+                    //_parallelConfig.Driver = new FirefoxDriver(GetDriversDirectoryPath(), ffOptions, TimeSpan.FromMinutes(3));
+                    new DriverManager().SetUpDriver(new FirefoxConfig(), VersionResolveStrategy.MatchingBrowser);
+                    _parallelConfig.Driver = new FirefoxDriver(ffOptions);
                     _parallelConfig.Driver.Manage().Window.Maximize();
                     break;
                 case ChromeOptions chromeOptions:
                     chromeOptions.AddArgument("start-maximized");
                     chromeOptions.AddArgument("--no-sandbox");
-                    _parallelConfig.Driver = new ChromeDriver(GetDriversDirectoryPath(), chromeOptions, TimeSpan.FromMinutes(3));
+                    //_parallelConfig.Driver = new ChromeDriver(GetDriversDirectoryPath(), chromeOptions, TimeSpan.FromMinutes(3));
+                    new DriverManager().SetUpDriver(new ChromeConfig(), VersionResolveStrategy.MatchingBrowser);
+                    _parallelConfig.Driver = new ChromeDriver(chromeOptions);
                     break;
                 case EdgeOptions edgeOptions:
                     edgeOptions.AddArgument("start-maximized");
                     edgeOptions.AddArgument("--no-sandbox");
                     edgeOptions.AddArgument("--disable-notifications");
                     edgeOptions.UseChromium = true;
-                    _parallelConfig.Driver = new EdgeDriver(GetDriversDirectoryPath(), edgeOptions, TimeSpan.FromMinutes(3));
+                    //_parallelConfig.Driver = new EdgeDriver(GetDriversDirectoryPath(), edgeOptions, TimeSpan.FromMinutes(3));
+                    new DriverManager().SetUpDriver(new EdgeConfig(), VersionResolveStrategy.MatchingBrowser);
+                    _parallelConfig.Driver = new EdgeDriver(edgeOptions);
                     _parallelConfig.Driver.Manage().Window.Maximize();
-
                     break;
             }
         }

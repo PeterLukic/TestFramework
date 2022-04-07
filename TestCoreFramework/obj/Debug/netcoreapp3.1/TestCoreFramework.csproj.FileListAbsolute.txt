@@ -1,14 +1,14 @@
 C:\Users\Peter Lukic\source\repos\TestCoreFramework\TestCoreFramework\bin\Debug\netcoreapp3.1\WebDrivers\chromedriver.exe
 C:\Users\Peter Lukic\source\repos\TestCoreFramework\TestCoreFramework\bin\Debug\netcoreapp3.1\WebDrivers\geckodriver.exe
 C:\Users\Peter Lukic\source\repos\TestCoreFramework\TestCoreFramework\bin\Debug\netcoreapp3.1\WebDrivers\IEDriverServer.exe
+C:\Users\Peter Lukic\source\repos\TestCoreFramework\TestCoreFramework\bin\Debug\netcoreapp3.1\WebDrivers\msedgedriver.exe
 C:\Users\Peter Lukic\source\repos\TestCoreFramework\TestCoreFramework\bin\Debug\netcoreapp3.1\TestCoreFramework.deps.json
 C:\Users\Peter Lukic\source\repos\TestCoreFramework\TestCoreFramework\bin\Debug\netcoreapp3.1\TestCoreFramework.dll
 C:\Users\Peter Lukic\source\repos\TestCoreFramework\TestCoreFramework\bin\Debug\netcoreapp3.1\TestCoreFramework.pdb
+C:\Users\Peter Lukic\source\repos\TestCoreFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.csproj.AssemblyReference.cache
 C:\Users\Peter Lukic\source\repos\TestCoreFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Peter Lukic\source\repos\TestCoreFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.AssemblyInfoInputs.cache
 C:\Users\Peter Lukic\source\repos\TestCoreFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.AssemblyInfo.cs
 C:\Users\Peter Lukic\source\repos\TestCoreFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.csproj.CoreCompileInputs.cache
 C:\Users\Peter Lukic\source\repos\TestCoreFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.dll
 C:\Users\Peter Lukic\source\repos\TestCoreFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.pdb
-C:\Users\Peter Lukic\source\repos\TestCoreFramework\TestCoreFramework\bin\Debug\netcoreapp3.1\WebDrivers\msedgedriver.exe
-C:\Users\Peter Lukic\source\repos\TestCoreFramework\TestCoreFramework\obj\Debug\netcoreapp3.1\TestCoreFramework.csproj.AssemblyReference.cache
